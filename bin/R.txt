@@ -12,8 +12,10 @@ int layout device_list 0x7f030000
 int layout device_name 0x7f030001
 int layout main 0x7f030002
 int raw extra_abs 0x7f050000
-int raw silence 0x7f050001
-int raw somatheremin 0x7f050002
+int raw panningtest 0x7f050001
+int raw silence 0x7f050002
+int raw somatheremin 0x7f050003
+int raw somatheremincopy 0x7f050004
 int string none_paired 0x7f060001
 int string pref_key_inchannels 0x7f060010
 int string pref_key_outchannels 0x7f060013
